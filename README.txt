@@ -98,3 +98,10 @@ Recommended additions:
 V3: Zara headshot integrated; premium editorial branding refined; market spotlight section added.
 
 V4: Added natural Cincinnati/Covington market photography (CC0) to the market section.
+
+V6:
+- Official full Chabris Group / KW Seven Hills Realty logo integrated.
+- Added interactive property-market cards to make the site feel more alive while keeping Sierra as the live-search engine.
+- Added stronger life-change storytelling section.
+- Added subtle image motion.
+- Added CNAME file for realestatewithzara.com so GitHub Pages can use the custom domain.

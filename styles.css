@@ -132,3 +132,41 @@ footer{padding:55px 8vw;background:#11110f;color:#d5d0c7;display:grid;grid-templ
 .market-overlay h2 em{color:#d8b8ad;font-weight:500}
 .market-overlay>p:not(.eyebrow){max-width:620px;color:#ddd6cd;font-size:18px;margin-bottom:30px}
 @media(max-width:560px){.brand-copy i{display:none}.market-photo{min-height:570px}.market-overlay{padding:90px 6vw}}
+
+:root{--accent:#b40101}.brokerage-header{height:54px;display:flex;align-items:center;margin-left:20px;margin-right:auto}.brokerage-header img{height:46px;width:auto}.site-header{gap:20px}.brand-copy strong{font-size:14px}.brand-copy small{color:#b40101;font-weight:700}.hero{background:radial-gradient(circle at 78% 25%,rgba(180,1,1,.10),transparent 28%),linear-gradient(145deg,#fff,#f2f2f0)}.ticker{background:#080808}.ticker b{color:#b40101}
+.quick-move{background:#0a0a0a;color:white;padding:95px 8vw;display:grid;grid-template-columns:.8fr 1.2fr;gap:7vw}.quick-move h2{font-family:"Playfair Display",serif;font-size:clamp(48px,6vw,78px);line-height:1;margin:0}.quick-options{border-top:1px solid #444}.quick-options a{display:grid;grid-template-columns:45px 1fr 30px;gap:10px;padding:20px 0;border-bottom:1px solid #333;transition:.2s}.quick-options a:hover{padding-left:10px;background:linear-gradient(90deg,rgba(180,1,1,.15),transparent)}.quick-options span{font-size:10px;color:#aaa}.quick-options b{color:#b40101}
+.brokerage-strip{background:#fff;padding:42px 8vw;display:flex;align-items:center;justify-content:space-between;gap:40px}.brokerage-strip>div{display:flex;flex-direction:column}.brokerage-strip span{font-size:9px;letter-spacing:.2em;color:#777}.brokerage-strip strong{font-size:20px}.brokerage-strip img{width:min(500px,50vw)}
+.reveal{opacity:0;transform:translateY(22px);transition:.65s}.reveal.visible{opacity:1;transform:none}
+@media(max-width:1100px){.brokerage-header{display:none}}@media(max-width:800px){.quick-move{grid-template-columns:1fr;padding:75px 6vw}.brokerage-strip{flex-direction:column;align-items:flex-start}.brokerage-strip img{width:100%}}
+
+/* V6 — more life, stronger continuity with Sierra, official brokerage logo */
+.brokerage-header img{height:48px;max-width:390px;object-fit:contain}
+.homes-now{padding:105px 8vw;background:#fff}
+.homes-now-head{display:flex;justify-content:space-between;align-items:end;gap:40px;margin-bottom:42px}
+.homes-now-head>div{max-width:760px}
+.homes-now-head h2{font-family:"Playfair Display",serif;font-size:clamp(46px,6vw,78px);line-height:1;margin:0 0 18px;font-weight:500}
+.homes-now-head p:not(.eyebrow){color:var(--muted);font-size:17px}
+.property-card-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.property-card{background:#f5f5f3;border:1px solid rgba(0,0,0,.08);overflow:hidden;transition:transform .25s ease,box-shadow .25s ease}
+.property-card:hover{transform:translateY(-7px);box-shadow:0 20px 45px rgba(0,0,0,.10)}
+.property-img{aspect-ratio:4/3;position:relative;display:flex;align-items:flex-end;padding:18px;overflow:hidden;background-size:cover;background-position:center}
+.property-img:before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 35%,rgba(0,0,0,.66))}
+.property-img span{position:relative;color:white;font-size:11px;font-weight:700;letter-spacing:.15em}
+.p1{background-image:linear-gradient(135deg,#a9adb1,#6b737b)}
+.p2{background-image:linear-gradient(135deg,#beb4aa,#7e7368)}
+.p3{background-image:linear-gradient(135deg,#8c8d8f,#47494c)}
+.property-meta{padding:20px;display:flex;flex-direction:column;gap:5px}
+.property-meta strong{font-family:"Playfair Display",serif;font-size:23px;font-weight:500}
+.property-meta small{color:#b40101;font-weight:700}
+.life-banner{padding:95px 8vw;background:#b40101;color:white}
+.life-banner-inner{max-width:980px}
+.life-banner h2{font-family:"Playfair Display",serif;font-size:clamp(52px,7vw,92px);line-height:.98;font-weight:500;margin:12px 0 22px}
+.life-banner p{font-size:18px;max-width:760px;color:rgba(255,255,255,.86)}
+.life-banner a{display:inline-block;margin-top:20px;padding-bottom:4px;border-bottom:1px solid white;font-weight:700}
+.small-label{font-size:10px;letter-spacing:.23em;font-weight:700}
+@media(max-width:900px){
+  .property-card-grid{grid-template-columns:1fr}
+  .homes-now-head{align-items:flex-start;flex-direction:column}
+  .homes-now{padding:80px 6vw}
+  .life-banner{padding:80px 6vw}
+}
